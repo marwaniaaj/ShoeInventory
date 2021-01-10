@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Login resources  -->
+    <string name="app_name">"Shoe \nInventory"</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="email_hint">name@example.domain</string>
+    <string name="password_hint">Start typing password here …</string>
+
+    <!--  Welcome resources  -->
+    <string name="shoe_inventory_title">Shoe Inventory</string>
+    <string name="welcome_title">"Welcome to \nShoe Inventory"</string>
+    <string name="app_description">This is the implementation of my first Android application with Kotlin.
+        It is the project app for \"Developing Android Apps with Kotlin - Part 1\" Course.</string>
+    <string name="next">Next</string>
+
+    <!--  Instructions resources  -->
+    <string name="instructions_title">How to use \nShoe Inventory app</string>
+    <string name="instruction_description">App contains two screens:
+        \n1. Shoe List: Displays all the shoes item in the inventory, and contains an add button for navigating to Add Shoe Detail.
+        \n2. Add Shoe Details: Gives the ability to add new shoes details to the inventory.</string>
+    <string name="start">Start</string>
+
+    <!--  Shoe List resources  -->
+    <string name="shoe_list">Shoe List</string>
+    <string name="name_label">Name:</string>
+    <string name="size_label">Size:</string>
+    <string name="company_label">Company:</string>
+    <string name="description_label">Description:</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!--  Shoe Details resources  -->
+    <string name="shoe_detail">Add Shoe Detail</string>
+    <string name="add_new_shoe_detail">Add new shoe detail</string>
+    <string name="shoe_name">Name</string>
+    <string name="shoe_size">Size</string>
+    <string name="shoe_company">Company</string>
+    <string name="shoe_description">Description</string>
+
+    <!--  Menu resources  -->
+    <string name="logout">Logout</string>
+</resources>
