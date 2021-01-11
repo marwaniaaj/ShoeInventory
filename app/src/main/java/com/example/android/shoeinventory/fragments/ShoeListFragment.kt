@@ -26,7 +26,7 @@ class ShoeListFragment: Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_list, container, false)
+        binding =  FragmentShoeListBinding.inflate(inflater, container, false)
 
         // Set the viewModel for databinding
         binding.shoeListViewModel = shoeViewModel

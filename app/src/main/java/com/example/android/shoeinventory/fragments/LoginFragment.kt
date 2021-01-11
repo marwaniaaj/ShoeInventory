@@ -18,7 +18,7 @@ class LoginFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
 
         // Inflate layout
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_login, container, false)
+        binding = FragmentLoginBinding.inflate(inflater, container, false)
 
         // Navigate to Welcome fragment, by clicking on either 'Login' or 'Register'
         binding.loginButton.setOnClickListener {

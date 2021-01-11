@@ -24,7 +24,7 @@ class ShoeDetailFragment: Fragment() {
                               savedInstanceState: Bundle?): View? {
 
         // Inflate layout
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_detail, container, false)
+        binding = FragmentShoeDetailBinding.inflate(inflater, container, false)
 
         // Set the viewModel for databinding
         binding.shoeViewModel = shoeViewModel
