@@ -26,14 +26,17 @@ class ShoeDetailFragment: Fragment() {
         // Inflate layout
         binding = FragmentShoeDetailBinding.inflate(inflater, container, false)
 
-        // Set the viewModel for databinding
-        binding.shoeViewModel = shoeViewModel
+        with(binding) {
 
-        // Initialize the new shoe
-        binding.shoeModel = Shoe("",0.0,"","")
+            // Set the viewModel for databinding
+            shoeViewModel = shoeViewModel
 
-        // Specify the current activity as the lifecycle owner.
-        binding.lifecycleOwner = this
+            // Initialize the new shoe
+            shoeModel = Shoe("", 0.0, "", "")
+
+            // Specify the current activity as the lifecycle owner.
+            lifecycleOwner = this@ShoeDetailFragment
+        }
 
         // Set up listening observer to save event
         shoeViewModel.eventSave.observe(viewLifecycleOwner, Observer { onSave ->
